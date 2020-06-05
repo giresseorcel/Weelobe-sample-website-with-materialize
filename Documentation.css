@@ -1,0 +1,64 @@
+
+section h4 {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+section p {
+    
+    color: #707060;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}  
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+#others {
+  background-color: #F6F6F6;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+}
+
+#leftnav{
+    overflow-y: scroll;
+    height: 700px;
+   box-shadow: 0 0 2px rgba(0,0,0,0.25);
+  }
+  
+  .flow-text{
+    font-size: 18px;
+  }
+  
+  a:hover, a:active {
+    color: #8c50cc;
+  }
